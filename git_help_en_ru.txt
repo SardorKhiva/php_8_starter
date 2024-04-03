@@ -1,0 +1,101 @@
+$ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial) 
+Начать рабочую область (см. также: git help tutorial):
+   clone     Clone a repository into a new directory
+   Клонировать репозиторий в новый каталог
+   
+   init      Create an empty Git repository or reinitialize an existing one
+   Создать пустой репозиторий Git или повторно инициализировать существующий
+
+work on the current change (see also: git help everyday)
+Работа с текущими изменениями (см. также: git help everyday):
+
+   add       Add file contents to the index
+   add: Добавить содержимое файла в индекс
+
+   mv        Move or rename a file, a directory, or a symlink
+   mv: Переместить или переименовать файл, каталог или символическую ссылку
+
+
+   restore   Restore working tree files
+   restore: Восстановить файлы рабочего дерева
+   rm        Remove files from the working tree and from the index
+   rm: Удалить файлы из рабочего дерева и индекса
+
+examine the history and state (see also: git help revisions)
+Изучение истории и состояния (см. также: git help revisions):
+   
+   bisect    Use binary search to find the commit that introduced a bug
+   bisect: Использовать бинарный поиск для поиска коммита, который внес ошибку
+   
+   diff      Show changes between commits, commit and working tree, etc
+   diff: Показать изменения между коммитами, коммитом и рабочим деревом и т. д.
+
+   grep      Print lines matching a pattern
+   grep: Вывести строки, соответствующие шаблону
+   
+   log       Show commit logs
+   log: Показать журналы коммитов
+   
+   show      Show various types of objects
+   show: Показать различные типы объектов
+   
+   status    Show the working tree status
+   status: Показать статус рабочего дерева
+
+
+grow, mark and tweak your common history
+Расширение, маркировка и настройка вашей общей истории:
+
+Совместная работа (см. также: git help workflows):
+
+   branch    List, create, or delete branches
+   branch: Список, создание или удаление веток
+
+   commit    Record changes to the repository
+   commit: Записать изменения в репозиторий
+
+   merge     Join two or more development histories together
+   merge: Соединить две или более истории разработки
+
+   rebase    Reapply commits on top of another base tip
+   rebase: Повторно применить коммиты поверх другого базового указателя
+
+   reset     Reset current HEAD to the specified state
+   reset: Сбросить текущий HEAD до указанного состояния
+
+   switch    Switch branches
+   switch: Переключить ветки
+
+   tag       Create, list, delete or verify a tag object signed with GPG
+   tag: Создать, перечислить, удалить или проверить объект метки, подписанный с помощью GPG
+
+
+collaborate (see also: git help workflows)
+
+   fetch     Download objects and refs from another repository
+   fetch: Загрузить объекты и ссылки из другого репозитория
+
+   pull      Fetch from and integrate with another repository or a local branch
+   pull: Получить и объединить с другим репозиторием или локальной веткой
+
+   push      Update remote refs along with associated objects
+   push: Обновить удаленные ссылки вместе с соответствующими объектами
+
+'git help -a' and 'git help -g' list available subcommands and some
+Команды git help -a и git help -g перечисляют доступные подкоманды и некоторые концептуальные руководства. 
+
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Используйте git help <command> или git help <concept>, чтобы прочитать о конкретной подкоманде или концепции. 
+
+See 'git help git' for an overview of the system.
+Используйте git help git, чтобы получить обзор системы.
